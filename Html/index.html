@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<head>
+    <title>Index.html</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/index.css">
+    <link rel="icon" href="../static/d16.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap"
+          rel="stylesheet">
+</head>
+
+<body class="body bg-white">
+
+    <div class="toolbar bg-white">
+            <img id="toolbar-logo" class="toolbar-logo"
+                 src="../static/d16.png" onclick="homeLink()" alt="Icon">
+            <h1 class="toolbar-heading">Company name</h1>
+            <img class="toolbar-menu-icon" src="../static/dmenu.png"
+                 onclick="openHomeMenu()" onmouseenter="openHomeMenu()">
+                </button>
+
+    </div>
+    <div id="toolbar-dropdown" class="toolbar-dropdown bg-white"
+         onmouseleave="openHomeMenu()">
+        <ul>
+            <li style="list-style-type: none;">
+                <img class="toolbar-dropdown-icon"
+                 src="../static/d16.png" onclick="homeLink(), openHomeMenu()" alt="Icon">
+                <a href="#" style="color: black; text-decoration: none;">Home</a>
+            </li>
+            <li  style="list-style-type: none;">
+                <img class="toolbar-dropdown-icon"
+                 src="../static/d16.png" onclick="aboutmeLink(), openHomeMenu()" alt="Icon">
+                <a href="#" style="color: black; text-decoration: none;">About Me</a>
+            </li>
+        </ul>
+    </div>
+
+   <div class="form-view linuxgrey">
+       <h1 class="text-white">Log In</h1>
+       <h3 class="text-white">Username</h3>
+       <input type="text">
+       <h3 class="text-white">Password</h3>
+       <input type="text">
+   </div>
+   <script src="../JS/index.js"></script>
+</body>
+<footer>
+
+</footer>

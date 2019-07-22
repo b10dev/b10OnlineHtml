@@ -1,0 +1,148 @@
+/*------------Colors----------*/
+/*Text----------*/
+.text-primary {
+    color: #1AFE01;
+}
+.text-secondary {
+    color: #808080;
+}
+.text-accent {
+    color: #01FEDC;
+}
+.text-white {
+    color: #FEFEFE;
+}
+.text-black {
+    color: #010000;
+}
+.text-error {
+    color: #FE0101;
+}
+
+/*Backgrounds----------*/
+.bg-primary {
+    background-color: #1AFE01;
+}
+.bg-secondary {
+    background-color: #808080;
+}
+.bg-accent {
+    background-color: #01FEDC;
+}
+.bg-white {
+    background-color: #FEFEFE;
+}
+.bg-black {
+    background-color: #010000;
+}
+.bg-error {
+    background-color: #FE0101;
+}
+
+/*Quickref----------*/
+.tiffanyblue {
+    color: #0abab5;
+}
+.limegreen {
+    color: #32cd32;
+}
+.linuxgrey {
+    background-color: #434343;
+}
+
+/*------------Margin----------*/
+/* Margin
+    This is the unit of measurement for the space
+    between the OUTSIDE of the element, and every
+    thing else.*/
+
+/*------------Padding----------*/
+/* Padding
+    This is the unit of measurement for the space
+    between the ELEMENT ITSELF and the border*/
+
+/*------------Border----------*/
+/* Border
+    This is the border around the element.*/
+
+/*------------Containers----------*/
+/* Body
+    The Main body of the document.*/
+.body{
+    margin: auto;
+    padding: auto;
+}
+
+/* Toolbar
+    The Toolbar stretches across the top of the
+    screen and by default displays links to both
+    the home and about me pages.*/
+.toolbar {
+    height: 30px;
+    /*Spacing for elements inside*/
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    border: 3px solid lightgrey;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+}
+/*Image that will link to the homepage onclick*/
+.toolbar-logo {
+    height: 12px;
+    display: inline-block;
+    margin-right: 1%;
+    cursor: pointer;
+}
+.toolbar-heading {
+    display: inline-block;
+    font-size: 15px;
+}
+/*This menu icon has some functionality in JS.
+When a mouse hovers over the icon, the dropdown
+menu is displayed, and when the mouse leaves, the
+dropdown menu is hidden. See the index.js for details*/
+.toolbar-menu-icon {
+    height: 12px;
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+    }
+.toolbar-dropdown{
+    display: none;
+    float: right;
+    margin-right: 10px;
+    text-align: left;
+    padding-right: 15px;
+    border: 3px solid lightgrey;
+    border-top: transparent;
+    border-right: transparent;
+}
+/* View
+    The view container just adds a default margin
+    and padding to the content.*/
+.view {
+    margin: 5%;
+    padding: 5%;
+}
+.form-view{
+    max-width: 40%;
+    margin: 5%;
+    margin-left: 25%;
+    margin-top: 10%;
+    padding: 5%;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid grey;
+    border-top: transparent;
+    border-left: transparent;
+    box-shadow: 10px 10px 10px #141414;
+}
+.rounded{
+    border-radius: 10px;
+}
+
+
