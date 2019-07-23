@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form View Example</title>
+    <link rel="icon" href="../static/d16.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="../CSS/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap"
+         rel="stylesheet">
+</head>
+<body class="body bg-white">
+
+    <div class="form-view bg-secondary">
+       <form action="" method="post">
+           Username:  <input class="form-field" style="background-image: url('../static/d16.png');
+                                                        background-repeat: no-repeat;
+                                                        padding-left: 40px;
+                                                        background-position: 0px 0px;
+                                                        " type="text" name="username" placeholder="username" readonly><br>
+           Password:  <input class="form-field" type="password" name="psw" required><br>
+           Birthday:  <input class="form-field" type="date" name="bday"
+                                max="1979-12-31" min="2000-01-02"> <br>
+           Birthday (date and time):  <input class="form-field" type="datetime-local"
+                                             name="bdaytime"> <br>
+           Birthday (month and year):  <input class="form-field" type="month"
+                                              name="bdaymonth" disabled> <br>
+           E-mail:    <input class="form-field" type="email" name="email"> <br>
+           Quantity (between 0 and 100):  <input class="form-field" type="number"
+                                               name="quantity"
+                                               min="0" max="100" step="10"> <br>
+           <input class="form-field" type="range" name="points" min="0" max="10"> <br>
+           Search Google:  <input class="form-field" type="search" name="googlesearch"> <br>
+           Telephone:  <input class="form-field" type="tel" name="phone"
+                              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> <br>
+           Select a time:  <input class="form-field" type="time" name="usr_time"> <br>
+           Add your homepage:  <input class="form-field" type="url" name="homepage"> <br>
+           Select a week:  <input class="form-field" type="week" name="week_year"> <br>
+           Select a file: <input class="form-field" type="file" name="myFile"> <br>
+           <input class="form-field" type="image" src="../static/d16.png" alt="Submit"> <br>
+           <input class="form-field" type="radio" name="gender" value="male" checked> Male<br>
+           <input class="form-field" type="radio" name="gender" value="female"> Female<br>
+           <input class="form-field" type="radio" name="gender" value="other"> Other <br>
+           <input class="form-field" type="checkbox"
+                  name="remember_me" value=""
+                  checked>remember me <br>
+           <input class="form-field" type="color" name="favcolor" value="#ff0000">
+           <input class="form-field" type="submit" value="Submit">
+           <input class="form-field" type="reset">
+       </form>
+    </div>
+    <script src="../JS/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!-- This is the heavily commented 'base' template for all
+    of the other HTML files that will use the B10OnlineHtml
+    system.  Another copy of this template can be found in
+    'index.html'.  That file is the same template without
+    all of the comments, or at least, less commented.
+    DO NOT ALTER THIS FILE. Alter the 'index.html' file.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base Template</title>
+    <!-- This is the example favico that appears in the
+        browser when you open the window.  This file is
+        found in the static folder, along with alot of other
+        images for example and styling.-->
+    <link rel="icon" href="../static/d16.png" type="image/x-icon" />
+    <!-- This is the CSS that goes along with all of the
+        B10OnlineHtml.  In this CSS file, you will find
+        all of the Style class's that go along with the HTML
+        and JS functions.  It is important that this
+        CSS file be linked in all of the HTML files, along
+        with the JS file 'index.js', found in the <body>
+        tag-->
+    <link rel="stylesheet" type="text/css" href="../CSS/index.css">
+    <!-- This is the default font style from Google.
+        This style is just a base to use, instead of
+        the browser default.-->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap"
+         rel="stylesheet">
+</head>
+<body class="body bg-white" onload="flashing_text();">
+
+    <!-- ---------------ATTENTION--------------- -->
+    <div class="view">
+        <h2 class="text-error">Do not alter this file</h2>
+        <p>Another copy of this file can be found in the
+            'Html' file.</p>
+        <p>Use the 'index.html' file (which is not commented),
+            and alter that file.</p>
+        <p>Keep this file as a template for all other html files</p>
+        <p>This file is made for development and documentation only!</p>
+        <h1 id="warning-text" class="text-error">Warning!!!</h1>
+    </div>
+
+    <!-- This is the JS that goes along with all of the
+        B10OnlineHtml.  In this JS file, you will find
+        all of the functions that go along with the HTML
+        class's and CSS styles.  It is important that this
+        JS file be linked in all of the HTML files, along
+        with the CSS file 'index.css', found in the <head>
+        tag.-->
+    <script src="../JS/index.js"></script>
+</body>
+</html>

@@ -1,3 +1,12 @@
+/*This function Flashes a message to the user.  The
+first usage is in the base template, as to call attention
+to the fact, that this file should not be altered.*/
+function flashing_text() {
+   var x = document.getElementById("warning-text");
+   setInterval(function() {
+      x.style.display = (x.style.display == 'none' ? '' : 'none');
+   }, 300);
+}
 /*This function simply takes you back to the home page
 when you click on the logo of the company in the toolbar*/
 function homeLink(){
