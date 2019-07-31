@@ -1,24 +1,23 @@
 /*------------Colors----------*/
 /*Text----------*/
-.text-primary {
+.primary {
     color: #1AFE01;
 }
-.text-secondary {
+.secondary {
     color: #808080;
 }
-.text-accent {
+.accent {
     color: #01FEDC;
 }
-.text-white {
+.white {
     color: #FEFEFE;
 }
-.text-black {
+.black {
     color: #010000;
 }
-.text-error {
+.error {
     color: #FE0101;
 }
-
 /*Backgrounds----------*/
 .bg-primary {
     background-color: #1AFE01;
@@ -38,7 +37,6 @@
 .bg-error {
     background-color: #FE0101;
 }
-
 /*Quickref----------*/
 .tiffanyblue {
     color: #0abab5;
@@ -49,24 +47,42 @@
 .linuxgrey {
     background-color: #434343;
 }
-
-/*------------Margin----------*/
-/* Margin
-    This is the unit of measurement for the space
-    between the OUTSIDE of the element, and every
-    thing else.*/
-
-/*------------Padding----------*/
-/* Padding
-    This is the unit of measurement for the space
-    between the ELEMENT ITSELF and the border*/
-
-/*------------Border----------*/
-/* Border
-    This is the border around the element.*/
-
+/*----------Feedback Messages----------*/
+.success{
+    color: #02ab51 ;
+}
+.caution{
+    color: #a5ab02 ;
+}
+.error{
+    color: #ff2f00 ;
+}
+.success-border{
+    border: 2px solid #02ab51;
+}
+.caution-border{
+    border: 2px solid #a5ab02;
+}
+.error-border{
+    border: 2px solid #ff2f00;
+}
+.success-message{
+    color: #02ab51 ;
+    background-color: #8df7bf;
+    border: 2px solid #02ab51;
+}
+.caution-message{
+    color: #a5ab02 ;
+    background-color: #e0e386;
+    border: 2px solid #a5ab02;
+}
+.error-message{
+    color: #ff2f00 ;
+    background-color: #f78d8d;
+    border: 2px solid #ff2f00;
+}
 /*------------Containers----------*/
-/* BODY---------------------------------------------------------------------
+/* BODY--------------------------------------------------------------------
     The Main body of the document.*/
 .body{
     margin: auto;
@@ -122,10 +138,10 @@ dropdown menu is hidden. See the index.js for details*/
     border-top: transparent;
     border-right: transparent;
 }
-/* VIEW------------------------------------------------------------------
+/* Basic------------------------------------------------------------------
     The view container just adds a default margin
     and padding to the content.*/
-.view {
+.basic {
     margin: 5%;
     padding: 5%;
 }
@@ -134,19 +150,6 @@ dropdown menu is hidden. See the index.js for details*/
     a border, box shadow and a basic heading and
     input box inside of the form
     Additional documentation is provided in 'form_view_example.html'.*/
-.form-view{
-    max-width: 40%;
-    margin: 5%;
-    margin-left: 25%;
-    margin-top: 10%;
-    padding: 5%;
-    border-radius: 10px;
-    text-align: center;
-    border: 2px solid grey;
-    border-top: transparent;
-    border-left: transparent;
-    box-shadow: 10px 10px 10px #141414;
-}
 .form-field{
     margin: 2%;
     width: auto%;
@@ -162,11 +165,63 @@ dropdown menu is hidden. See the index.js for details*/
     border-top: transparent;
     border-left: transparent;
 }
-.rounded{
-    border-radius: 10px;
-}
 #warning-text{
     display: block;
+}
+/*----------Float----------*/
+.fright{
+    float: right;
+}
+.fleft{
+    float: left;
+}
+.fcenter{
+    float: center;
+}
+/*----------Display----------*/
+.inline{
+    display: inline;
+}
+.block{
+    display: block;
+}
+.none{
+    display: none;
+}
+/*----------Alignment----------*/
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+/*----------Boxshadow----------*/
+.boxshadowr{
+    box-shadow: 3px 3px 5px #141414;
+}
+.boxshadowl{
+    box-shadow: -3px 3px 5px #141414;
+}
+.boxshadowc{
+    box-shadow: 0px 3px 5px #141414;
+}
+/*----------Border----------*/
+.thinborder{
+    border: 2px solid grey;
+}
+.roundedcorners{
+    border-radius: 10px;
+}   
+.round{
+    border-radius: 50px;
+} 
+.reactive-border{
+    border: 2px solid grey;
+    border-top: transparent;
+    border-left: transparent;
 }
 
 /*----------Images----------*/
