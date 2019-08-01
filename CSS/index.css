@@ -226,48 +226,48 @@ dropdown menu is hidden. See the index.js for details*/
 
 /*----------Images----------*/
 .p16{
-    width:16px;
-    height:16px;
+    max-width:16px;
+    max-height:16px;
 }
 .p32{
-    width:32px;
-    height:32px;
+    max-width:32px;
+    max-height:32px;
 }
 .p64{
-    width:64px;
-    height:64px;
+    max-width:64px;
+    max-height:64px;
 }
 .p128{
-    width:128px;
-    height:128px;
+    max-width:128px;
+    max-height:128px;
 }
 .p256{
-    width:256px;
-    height:256px;
+    max-width:256px;
+    max-height:256px;
 }
 .p512{
-    width:512px;
-    height:512px;
+    max-width:512px;
+    max-height:512px;
 }
 .p720{
-    width:720px;
-    height:720px;
+    max-width:720px;
+    max-height:720px;
 }
 .pl720{
-    width:720px;
-    height:512px;
+    max-width:720px;
+    max-height:512px;
 }
 .pp512{
-    width:512px;
-    height:720px;
+    max-width:512px;
+    max-height:720px;
 }
 .pl1280{
-    width:1280px;
-    height:720px;
+    max-width:1280px;
+    max-height:720px;
 }
 .pp720{
-    width:720px;
-    height:1280px;
+    max-width:720px;
+    max-height:1280px;
 }
 /*----------Width----------*/
 .w10{
