@@ -1,3 +1,28 @@
+/*
+--------------Media Querys-----------------
+MEDIA QUERIES NEED TO GO BELOW THE STYLES THEY ARE INTENDED TO 
+OVERWRITE!
+
+@media (max-width: 360px){
+   
+} 
+@media (max-width: 480px){
+   
+} 
+@media (max-width: 600px){
+   
+} 
+@media (max-width: 768px){
+   
+} 
+@media (max-width: 900px){
+   
+} 
+@media (max-width: 1024px){
+
+}
+
+*/
 /*------------Colors----------*/
 /*Text----------*/
 .primary {
@@ -96,36 +121,38 @@
     the home and about me pages
     Additional documentation is provided in 'toolbar_example.html'.*/
 .toolbar {
-    height: 30px;
+    height: 50px;
     /*Spacing for elements inside*/
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 10px;
     text-align: left;
-    border: 3px solid lightgrey;
+    border: 1px solid lightgrey;
     border-top: transparent;
     border-right: transparent;
     border-left: transparent;
 }
 /*Image that will link to the homepage onclick*/
 .toolbar-logo {
-    height: 12px;
+    height: 25px;
     display: inline-block;
     margin-right: 1%;
     cursor: pointer;
 }
 .toolbar-heading {
     display: inline-block;
-    font-size: 15px;
+    font-size: 30px;
+    margin-top: 1px;
 }
 /*This menu icon has some functionality in JS.
 When a mouse hovers over the icon, the dropdown
 menu is displayed, and when the mouse leaves, the
 dropdown menu is hidden. See the index.js for details*/
 .toolbar-menu-icon {
-    height: 12px;
+    height: 25px;
     display: inline-block;
     float: right;
-    margin-top: 10px;
+    margin-top: 5px;
     cursor: pointer;
     }
 .toolbar-dropdown{
@@ -134,7 +161,7 @@ dropdown menu is hidden. See the index.js for details*/
     margin-right: 10px;
     text-align: left;
     padding-right: 15px;
-    border: 3px solid lightgrey;
+    border: 1px solid lightgrey;
     border-top: transparent;
     border-right: transparent;
 }
@@ -145,6 +172,97 @@ dropdown menu is hidden. See the index.js for details*/
     margin: 5%;
     padding: 5%;
 }
+/* Feed------------------------------------------------------------------
+    The feed container is for blogs, messageboards and 
+    articals. Open the blog-example.html to see the examples
+    of these.*/
+.fullfeed {
+    margin: auto;
+    width: 100%;
+    padding: 5px;
+}    
+.leftfeed {
+    float: left;
+    margin-left: 0%;
+    width: 26%;
+    padding: 5px;
+}
+.rightfeed {
+    float: right;
+    
+    width: 26%;
+    padding: 5px;
+}
+.lefthalffeed {
+    float: left;
+    margin-left: 0%;
+    width: 49%;
+    padding: 5px;
+}
+.righthalffeed {
+    float: right;
+    width: 49%;
+    padding: 5px;
+}
+.feedimage {
+}
+.feedlabel {
+    font-size: 30px;
+    padding-left: 10px;
+}  
+.feedleft {
+    width: auto;
+    padding: 20px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 50%;
+}
+.feedright {
+    width: auto;
+    padding: 20px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 50%;
+    margin-right: 5%;
+}
+.feedcenter {
+    width: auto;
+    padding: 10px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.feedbody{
+    font-size: 12px;
+    max-width: auto; 
+}
+.feedborder{
+    box-shadow: 3px 3px 5px #141414; 
+}
+@media (max-width: 360px){
+   .feedleft{
+        width: auto;
+        padding: 10px;
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 15%;
+        margin-right: 15%;
+        } 
+    .feedright{
+        background-color: red;
+        width: auto;
+        padding: 10px;
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 15%;
+        margin-right: 15%;
+        }    
+}
+
+
+
 /* FORM VIEW--------------------------------------------------------------
     The form view container adds margin, padding,
     a border, box shadow and a basic heading and
@@ -157,16 +275,22 @@ dropdown menu is hidden. See the index.js for details*/
     transition: width 0.4s ease-in-out;
 
 }
+/* Example of reshaping elements with focus
 .form-field:focus{
-    width: 100%;
+    width: 50%;
     margin: 2%;
     border-radius: 4px;
     border: 2px solid grey;
     border-top: transparent;
     border-left: transparent;
 }
+*/
 #warning-text{
     display: block;
+}
+/*----------Buttons----------*/
+.btnsmall {
+       
 }
 /*----------Float----------*/
 .fright{
